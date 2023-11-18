@@ -10,3 +10,4 @@
 #include "WtDtRunner.h"
 
 #include "../Share/StrUtil.hpp"
+#include "../Share/DLLHelper.hpp"
