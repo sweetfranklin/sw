@@ -11,3 +11,4 @@
 
 #include "../Share/StrUtil.hpp"
 #include "../Share/DLLHelper.hpp"
+#include "../Share/StdUtils.hpp"
