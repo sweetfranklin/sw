@@ -15,3 +15,4 @@
 #include "../Share/CodeHelper.hpp"
 
 #include "../Includes/WTSVariant.hpp"
+#include "../Includes/WTSContractInfo.hpp"
