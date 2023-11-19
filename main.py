@@ -17,3 +17,4 @@
 #include "../Includes/WTSVariant.hpp"
 #include "../Includes/WTSContractInfo.hpp"
 #include "../Includes/WTSDataDef.hpp"
+#include "../Includes/WTSVariant.hpp"
