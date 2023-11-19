@@ -20,3 +20,4 @@
 #include "../Includes/WTSVariant.hpp"
 
 #include "../WTSTools/WTSBaseDataMgr.h"
+#include "../WTSTools/WTSLogger.h"
