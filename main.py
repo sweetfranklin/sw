@@ -26,3 +26,4 @@
 //////////////////////////////////////////////////////////////////////////
 //ParserAdapter
 ParserAdapter::ParserAdapter(WTSBaseDataMgr * bgMgr, WtDtRunner* runner)
+	: _parser_api(NULL)
