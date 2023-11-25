@@ -32,3 +32,4 @@ ParserAdapter::ParserAdapter(WTSBaseDataMgr * bgMgr, WtDtRunner* runner)
 	, _bd_mgr(bgMgr)
 	, _dt_runner(runner)
 	, _cfg(NULL)
+{
