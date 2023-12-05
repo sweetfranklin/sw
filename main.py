@@ -55,3 +55,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
 		{
 			ContractSet contractSet;
 			WTSArray* ayContract = _bd_mgr->getContracts();
+			WTSArray::Iterator it = ayContract->begin();
