@@ -78,3 +78,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
 
 
 bool ParserAdapter::init(const char* id, WTSVariant* cfg)
+{
