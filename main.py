@@ -81,3 +81,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 {
 	if (cfg == NULL)
 		return false;
+
