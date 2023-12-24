@@ -89,3 +89,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 
 	_cfg = cfg;
 	_cfg->retain();
+
