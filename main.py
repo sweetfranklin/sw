@@ -91,3 +91,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 	_cfg->retain();
 
 	{
+		//加载模块
