@@ -95,3 +95,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 		if (cfg->getString("module").empty())
 			return false;
 
+		std::string module = DLLHelper::wrap_module(cfg->getCString("module"), "lib");;
