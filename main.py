@@ -99,3 +99,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 
 		if (!StdFile::exists(module.c_str()))
 		{
+			module = WtHelper::get_module_dir();
