@@ -106,3 +106,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 
 		DllHandle hInst = DLLHelper::load_library(module.c_str());
 		if (hInst == NULL)
+		{
