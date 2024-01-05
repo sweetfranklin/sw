@@ -104,3 +104,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 			module += DLLHelper::wrap_module(cfg->getCString("module"), "lib");
 		}
 
+		DllHandle hInst = DLLHelper::load_library(module.c_str());
