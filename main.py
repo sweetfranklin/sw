@@ -107,3 +107,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 		DllHandle hInst = DLLHelper::load_library(module.c_str());
 		if (hInst == NULL)
 		{
+			WTSLogger::log_dyn("parser", _id.c_str(), LL_ERROR, "[{}] Parser module {} loading failed", _id.c_str(), module.c_str());
