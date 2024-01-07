@@ -109,3 +109,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 		{
 			WTSLogger::log_dyn("parser", _id.c_str(), LL_ERROR, "[{}] Parser module {} loading failed", _id.c_str(), module.c_str());
 			return false;
+		}
