@@ -111,3 +111,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 			return false;
 		}
 		else
+		{
