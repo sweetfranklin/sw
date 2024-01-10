@@ -117,3 +117,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 
 		FuncCreateParser pFuncCreateParser = (FuncCreateParser)DLLHelper::get_symbol(hInst, "createParser");
 		if (NULL == pFuncCreateParser)
+		{
