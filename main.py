@@ -115,3 +115,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 			WTSLogger::log_dyn("parser", _id.c_str(), LL_INFO, "[{}] Parser module {} loaded", _id.c_str(), module.c_str());
 		}
 
+		FuncCreateParser pFuncCreateParser = (FuncCreateParser)DLLHelper::get_symbol(hInst, "createParser");
