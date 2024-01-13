@@ -120,3 +120,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 		{
 			WTSLogger::log_dyn("parser", _id.c_str(), LL_FATAL, "[{}] Entrance function createParser not found", _id.c_str());
 			return false;
+		}
