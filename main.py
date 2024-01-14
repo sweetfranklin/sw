@@ -124,3 +124,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 
 		_parser_api = pFuncCreateParser();
 		if (NULL == _parser_api)
+		{
