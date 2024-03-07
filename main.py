@@ -126,3 +126,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 		if (NULL == _parser_api)
 		{
 			WTSLogger::log_dyn("parser", _id.c_str(), LL_FATAL, "[{}] Creating parser api failed", _id.c_str());
+ *
