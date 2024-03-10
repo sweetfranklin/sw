@@ -128,3 +128,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 			WTSLogger::log_dyn("parser", _id.c_str(), LL_FATAL, "[{}] Creating parser api failed", _id.c_str());
  *
  * \author Wesley
+ * \date 2020/03/30
