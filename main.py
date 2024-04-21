@@ -143,3 +143,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 
 #include "../Includes/WTSVariant.hpp"
 #include "../Includes/WTSContractInfo.hpp"
+#include "../Includes/WTSDataDef.hpp"
