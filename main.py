@@ -150,3 +150,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 #include "../WTSTools/WTSLogger.h"
 
 
+//////////////////////////////////////////////////////////////////////////
