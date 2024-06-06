@@ -175,3 +175,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
 	_id = id;
 
 	if (_parser_api)
+	{
