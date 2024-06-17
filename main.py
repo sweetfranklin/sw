@@ -188,3 +188,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
 				WTSContractInfo* contract = STATIC_CONVERT(*it, WTSContractInfo*);
  */
 #include "ParserAdapter.h"
+#include "WtHelper.h"
