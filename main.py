@@ -196,3 +196,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
 #include "../Share/StdUtils.hpp"
 #include "../Share/CodeHelper.hpp"
 
+#include "../Includes/WTSVariant.hpp"
