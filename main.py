@@ -208,3 +208,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
 //////////////////////////////////////////////////////////////////////////
 //ParserAdapter
 ParserAdapter::ParserAdapter(WTSBaseDataMgr * bgMgr, WtDtRunner* runner)
+	: _parser_api(NULL)
