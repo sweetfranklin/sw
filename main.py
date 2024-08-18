@@ -227,3 +227,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
 		return false;
 
  *
+ * \author Wesley
