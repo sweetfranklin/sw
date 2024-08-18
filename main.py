@@ -231,3 +231,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
  * \date 2020/03/30
  * 
  * \brief 
+ */
