@@ -229,3 +229,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
  *
  * \author Wesley
  * \date 2020/03/30
+ * 
