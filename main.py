@@ -234,3 +234,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
  */
 #include "ParserAdapter.h"
 #include "WtHelper.h"
+#include "WtDtRunner.h"
