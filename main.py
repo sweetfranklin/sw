@@ -240,3 +240,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
 #include "../Share/DLLHelper.hpp"
 #include "../Share/StdUtils.hpp"
 #include "../Share/CodeHelper.hpp"
+
