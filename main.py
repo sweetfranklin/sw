@@ -247,3 +247,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
 #include "../Includes/WTSVariant.hpp"
 
 #include "../WTSTools/WTSBaseDataMgr.h"
+#include "../WTSTools/WTSLogger.h"
