@@ -246,3 +246,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
 #include "../Includes/WTSDataDef.hpp"
 #include "../Includes/WTSVariant.hpp"
 
+#include "../WTSTools/WTSBaseDataMgr.h"
