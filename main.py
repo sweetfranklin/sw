@@ -278,3 +278,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
 	{
 		_parser_api->registerSpi(this);
 
+		if (_parser_api->init(NULL))
