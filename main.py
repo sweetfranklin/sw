@@ -284,3 +284,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
 			WTSArray* ayContract = _bd_mgr->getContracts();
 			WTSArray::Iterator it = ayContract->begin();
 			for (; it != ayContract->end(); it++)
+			{
