@@ -291,3 +291,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
 
 			ayContract->release();
 
+			_parser_api->subscribe(contractSet);
