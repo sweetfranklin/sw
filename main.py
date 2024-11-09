@@ -299,3 +299,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
 			WTSLogger::log_dyn("parser", _id.c_str(), LL_ERROR, "[{}] Parser initializing failed: api initializing failed...", _id.c_str());
 		}
 	}
+
