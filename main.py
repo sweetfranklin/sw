@@ -313,3 +313,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 
 	if (_cfg != NULL)
 		return false;
+
