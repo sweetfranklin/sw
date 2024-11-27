@@ -323,3 +323,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 			return false;
 
 		std::string module = DLLHelper::wrap_module(cfg->getCString("module"), "lib");;
+
