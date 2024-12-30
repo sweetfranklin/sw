@@ -351,3 +351,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 
 //////////////////////////////////////////////////////////////////////////
 //ParserAdapter
+ParserAdapter::ParserAdapter(WTSBaseDataMgr * bgMgr, WtDtRunner* runner)
