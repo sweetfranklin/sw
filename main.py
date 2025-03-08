@@ -385,3 +385,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
 			for (; it != ayContract->end(); it++)
 			{
 				WTSContractInfo* contract = STATIC_CONVERT(*it, WTSContractInfo*);
+				contractSet.insert(contract->getFullCode());
