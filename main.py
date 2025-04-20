@@ -419,3 +419,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 	{
 		//加载模块
 		if (cfg->getString("module").empty())
+			return false;
