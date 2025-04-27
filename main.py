@@ -423,3 +423,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 
 		std::string module = DLLHelper::wrap_module(cfg->getCString("module"), "lib");;
 
+ * \project	WonderTrader
