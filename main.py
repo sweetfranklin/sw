@@ -425,3 +425,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 
  * \project	WonderTrader
  *
+ * \author Wesley
