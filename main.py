@@ -434,3 +434,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 #include "WtHelper.h"
 #include "WtDtRunner.h"
 
+#include "../Share/StrUtil.hpp"
