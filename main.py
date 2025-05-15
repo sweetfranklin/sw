@@ -444,3 +444,4 @@ bool ParserAdapter::init(const char* id, WTSVariant* cfg)
 #include "../Includes/WTSDataDef.hpp"
 #include "../Includes/WTSVariant.hpp"
 
+#include "../WTSTools/WTSBaseDataMgr.h"
