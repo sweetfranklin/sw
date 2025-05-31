@@ -458,3 +458,4 @@ ParserAdapter::ParserAdapter(WTSBaseDataMgr * bgMgr, WtDtRunner* runner)
 	, _dt_runner(runner)
 	, _cfg(NULL)
 {
+}
