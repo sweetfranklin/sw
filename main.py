@@ -460,3 +460,4 @@ ParserAdapter::ParserAdapter(WTSBaseDataMgr * bgMgr, WtDtRunner* runner)
 {
 }
 
+ParserAdapter::~ParserAdapter()
