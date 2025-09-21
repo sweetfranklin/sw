@@ -485,3 +485,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
 			{
 				WTSContractInfo* contract = STATIC_CONVERT(*it, WTSContractInfo*);
 				contractSet.insert(contract->getFullCode());
+			}
