@@ -487,3 +487,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
 				contractSet.insert(contract->getFullCode());
 			}
 
+			ayContract->release();
