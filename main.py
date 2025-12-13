@@ -491,3 +491,4 @@ bool ParserAdapter::initExt(const char* id, IParserApi* api)
 
 			_parser_api->subscribe(contractSet);
 			contractSet.clear();
+		}
